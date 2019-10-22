@@ -1,0 +1,131 @@
+
+div{
+    display: block;
+    color: green;
+}
+
+.container2 {
+    position: relative;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.centered-element {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+
+}
+
+
+.element {
+    min-width: 230px;
+    max-height: 700px;
+    float: left;
+    margin: 5px;
+    border-style: solid;
+    border-block-color: black;
+    background-color: black;
+    
+}
+
+
+
+
+#container {
+    border:1px;
+    overflow: hidden;
+    width: 1200px;
+    height: 600;
+}
+
+
+.gradiente {
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(green,red,yellow);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font: 400;
+    font-size: 100px;
+    color:green;
+    text-align: center;
+    border-inline-color: black;
+}
+
+h2 {
+    color: yellow;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+h3 {
+    color: green
+}
+
+h4 {
+
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+body {
+    background-image: radial-gradient(green, red, yellow);
+    text-align: center;
+    image-orientation: flip;
+    border-image: round;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+a {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    border-bottom: greenyellow;
+    margin-bottom: 5px;
+    border-bottom-style: solid;
+}
+
+
